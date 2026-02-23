@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/squirdle.css" rel="stylesheet">
+    <title>SQUIRDLE</title>
+  </head>
+    <body>
+      
+      <div id="wrapper">
+      <a id="sig">- By R McGregor</a>
+      <h2><u>SQUIRDLE</u> <small>(Pokémon Wordle)</small></h2>
+        <h3>Guess which Pokémon i am thinking of, you have <p id="maxGuesses">5</p> guesses!</h3>
+        <img id="sprite"></img>
+      <div id="main">
+        <div id="gen-check">
+        <label for="gen-check">Choose up to which Generation to include: </label>
+        <select id="gen_check" type="number">
+          <option id="1" value="1">1</option>
+          <option id="2" value="2">2</option>
+          <option id="3" value="3">3</option>
+        </select>
+        </div>
+        <form>
+        <input
+            id="text-input"
+            input type="search"
+            list="myList"
+            placeholder="Enter a Pokémon guess here..."
+            autocomplete="off"
+            
+        />
+          
+          <button id="check-btn" type="button">Check</button>
+          <button id="start-btn" type="button">New Game</button>
+          <button id="reset-btn" type="button">Reset</button>
+          
+        </form>
+        <div id="result"></div>
+        <div id="static-icons">
+          <div id="pokemon-guess-icon" placeholder="">Current Guess:</div>
+          <div id="type1-icon" placeholder="">Type 1-</div>
+          <div id="type2-icon" placeholder="">Type 2-</div>
+          <div id="height-icon" placeholder="">Height(m)-</div>
+          <div id="weight-icon" placeholder="">Weight(kg)-</div>
+          <div id="gen-icon" placeholder="">Gen-</div>
+        </div>
+    
+          <div class="icons">
+            <div id="currentGuess" class="icons-sub-icon"></div>
+            <div id="type-1" class="icons-sub-icon"></div>
+            <div id="type-2" class="icons-sub-icon"></div>
+            <div id="height" class="icons-sub-icon"></div>
+            <div id="weight" class="icons-sub-icon"></div>
+            <div id="gen" class="icons-sub-icon"></div>
+      </div>
+       
+        
+        <div id="types">
+          <div id="Normal" class="types">Normal</div>
+          <div id="Fire" class="types">Fire</div>
+          <div id="Fighting" class="types">Fighting</div>
+          <div id="Water" class="types">Water</div>
+          <div id="Flying" class="types">Flying</div>
+          <div id="Grass" class="types">Grass</div>
+          <div id="Poison" class="types">Poison</div>
+          <div id="Electric" class="types">Electric</div>
+          <div id="Ground" class="types">Ground</div>
+          <div id="Dark" class="types">Dark</div>
+          <div id="Psychic" class="types">Psychic</div>
+          <div id="Rock" class="types">Rock</div>
+          <div id="Ice" class="types">Ice</div>
+          <div id="Bug" class="types">Bug</div>
+          <div id="Dragon" class="types">Dragon</div>
+          <div id="Ghost" class="types">Ghost</div>
+          <div id="None" class="types">None</div>
+          <div id="Steel" class="types">Steel</div>
+          <div id="Fairy" class="types">Fairy</div>
+            </div>
+
+      <div id="myList"></div>
+ 
+      <script src="src/squirdle.ts" type="text/javascript"></script>
+      </div>
+  </body>
+</html>
