@@ -1,11 +1,12 @@
 {
   "name": "pokemon-wordle-typescript",
   "version": "1.0.0",
+  "type": "module",
   "description": "My version of a Pokemon-Wordle style guessing game.",
   "main": "squirdle.html",
   "scripts": {
-    "start": "parcel squirdle.html",
-    "build": "parcel build squirdle.html"
+    "start": "parcel src/squirdle.html",
+    "build": "parcel build src/squirdle.html"
   },
   "dependencies": {
     "parcel-bundler": "1.6.1"
