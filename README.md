@@ -8,7 +8,7 @@ This is an updated Typescript version of my original code. I have updated the ga
 
 For a working example of the code, please use my Code Sandbox link below:
 
-https://5gmt4g-1234.csb.app/
+https://p9g7xt-1234.csb.app/
 
 Alternatively, you can use this CodePen link below for an older, JS version of the same game:
 
