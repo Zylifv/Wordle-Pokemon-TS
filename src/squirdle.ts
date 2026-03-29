@@ -464,7 +464,7 @@ const gen1Array: {
   },
   {
     name: "Poliwag",
-    types: ["Water", "none"],
+    types: ["Water", "None"],
     height: 0.6,
     weight: 12.4,
     generation: 1,
