@@ -13,4 +13,4 @@ https://codepen.io/BobbyArmac/full/VYvLwab
 
 Alternatively, you can use this Code Sandbox link below for the same game:
 
-https://p9g7xt-1234.csb.app/
+https://qsr686-1234.csb.app/
